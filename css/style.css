@@ -1,61 +1,60 @@
 @import "./fonts.css";
 @import "./normalize.css";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Outfit";
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: "Outfit";
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
 }
+
 .main {
-    width: 100vw;
-    height: 800px;
-    background-color: #D5E1EF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.card {
-    width: 320px;
-    height: 497px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    box-shadow: 0px 25px 25px 0px #0000000C;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.card__img {
-    background-color: blue;
-    border-radius: 10px;
-}
-.card__title {
-    margin-top: 24px;
-    margin-left: 16px;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 100%;
-    color: #1F314F;
-    width: 288px;
-    height: 56px;
 
+.card {
+  text-align: center;
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 25px 25px 0px #0000000c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
 }
+
+.card__img {
+  background-color: blue;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  color: #1f314f;
+  width: 288px;
+  height: 56px;
+  margin-bottom: 16px;
+}
+
 .card__description {
-    margin-top:16px;
-    margin-left: 16px;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.19px;
-    color: #7D889E;
-    width: 256px;
-    height: 57px;
-    text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.19px;
+  color: #7d889e;
+  width: 256px;
+  height: 57px;
 }
